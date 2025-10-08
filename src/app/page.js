@@ -1,5 +1,5 @@
-import './globals.css'
-import './homePage.css'
+
+import '../../styles/homePage.css'
 import { Castoro_Titling } from "next/font/google"
 
 const castoroTitlingSettings = Castoro_Titling({
