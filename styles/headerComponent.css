@@ -1,0 +1,21 @@
+
+.title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p {
+    padding: 0 10px;
+}
+
+header {
+    display: flex;
+    color: #FFF;
+    background-color: #564D88;
+    height: 13%;
+    padding-left: 30px;
+}
