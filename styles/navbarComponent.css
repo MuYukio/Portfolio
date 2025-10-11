@@ -1,20 +1,36 @@
 
 nav {
-    height: 20%;
+    height: 15%;
     background-color: #F3F0F0;
-    border: 1px solid #000;
     display: flex;
     align-items: center;
 }
 
-.itemsContainer {
+.navbarItemsContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    border: 1px solid #000;
+    height: 100%;
+    list-style-type: none;
 }
 
-.itemsContainer li {
-    border: 1px solid #000;
+.navbarItemsContainer li {
+    width: 33%;
 }
+
+.navbarItemsContainer li, .navbarItemsContainer li a {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarItemsContainer li a {
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    font-size: 25px;
+}
+

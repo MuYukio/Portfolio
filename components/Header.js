@@ -5,6 +5,7 @@ import { Castoro_Titling } from "next/font/google"
 const castoroTitlingSettings = Castoro_Titling({
   subsets: ['latin'],
   weight: ['400'],
+  fallback: ['serif', 'Georgia'],
 })
 
 export default function Header() {

@@ -10,6 +10,7 @@ export default function Home() {
 
       <main>
         <Navbar />
+        <h2>Tela de resumo</h2>
       </main>
     </div>
   );
