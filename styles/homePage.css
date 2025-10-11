@@ -7,3 +7,16 @@ main {
     background-color: #F3F0F0;
     height: 87%;
 }
+
+section {
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section p {
+    border-left: 2px solid #000;
+    font-size: 32px;
+}
