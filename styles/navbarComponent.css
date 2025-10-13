@@ -1,0 +1,36 @@
+
+nav {
+    height: 15%;
+    background-color: #F3F0F0;
+    display: flex;
+    align-items: center;
+}
+
+.navbarItemsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.navbarItemsContainer li {
+    width: 33%;
+}
+
+.navbarItemsContainer li, .navbarItemsContainer li a {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarItemsContainer li a {
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    font-size: 25px;
+}
+
