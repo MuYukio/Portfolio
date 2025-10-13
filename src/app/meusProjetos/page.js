@@ -11,7 +11,49 @@ export default function Page(){
 
             <main>
                 <Navbar />
-                <h2>Tela de meus projetos</h2>
+                <section>
+
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                    <h2>Tela de meus projetos</h2>
+                </section>
             </main>
         </div>
     );
