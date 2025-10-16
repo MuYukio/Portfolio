@@ -7,10 +7,10 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
+    <div className='mainContainer'>
       <Header />
+      <Navbar />
       <main>
-        <Navbar />
         <section>
           <p>
             bla bla bla eu sou o murilo nao <br />
@@ -26,7 +26,7 @@ export default function Home() {
             width={350}
             height={350}
             alt="Foto do dono da página"
-            style={{borderRadius: '50%'}}
+            style={{ borderRadius: '50%' }}
             priority
           />
         </section>

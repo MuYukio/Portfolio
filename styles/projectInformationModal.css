@@ -1,0 +1,86 @@
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+    width: 60%;
+    max-height: 100dvh;
+    padding: 1%;
+    max-height: 90vh;
+    overflow-y: auto;       
+    overflow-x: hidden;     
+}
+
+.projectInformationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.leftModalContent,
+.rightModalContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+    padding: 1%;
+}
+
+.leftModalContent {
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+.leftModalContent, .rightModalContent {
+    padding-top: 10%;
+}
+
+.leftModalContent p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #6b7280;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.closeButton:hover {
+    color: #1f2937;
+}
+
+.githubRepositoryLink {
+    padding: 10px;
+    background-color: #564D88;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.githubRepositoryLink:hover {
+    background-color: #a39adf;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
