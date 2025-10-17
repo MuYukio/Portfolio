@@ -26,10 +26,10 @@ export default function Navbar() {
 
                 <li
                     style={{
-                        borderBottom: pathname === '/meusProjetos' ? '2px solid #2C1997' : 'none'
+                        borderBottom: pathname === '/myProjects' ? '2px solid #2C1997' : 'none'
                     }}
                 >
-                    <a href='/meusProjetos' className={`${castoroTitlingSettings.className}`}>MEUS <br></br> PROJETOS</a>
+                    <a href='/myProjects' className={`${castoroTitlingSettings.className}`}>MEUS <br></br> PROJETOS</a>
                 </li>
 
                 <li
