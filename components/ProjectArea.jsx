@@ -5,7 +5,7 @@ import '../styles/projectArea.css'
 import { useState } from "react";
 import ProjectInformationModal from './ProjectInformationModal';
 
-export default function ProjectArea({ projectName, projectDescription, projectMainLanguage, projectGithubRepositoryLink }) {
+export default function ProjectArea({ projectName, projectDescription, projectMainLanguage, projectGithubRepositoryLink, projectPhotoPath }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
@@ -16,13 +16,19 @@ export default function ProjectArea({ projectName, projectDescription, projectMa
             </div>
 
             <div className='rightContent'>
-                <Image
-                    src={'/images/murilo.jpeg'}
-                    width={200}
-                    height={200}
-                    alt="Foto do dono da página"
-                    style={{ borderRadius: '50%' }}
-                />
+                {projectPhotoPath ? 
+                    <Image
+                        src={projectPhotoPath}
+                        width={200}
+                        height={200}
+                        alt="Foto do dono da página"
+                        style={{ borderRadius: '50%' }}
+                    />
+                    :
+                    <div className='containerWithoutProjectPhoto'>
+                        <p>{projectName}</p>
+                    </div>
+                }
 
                 <button
                     className='seeMoreButton'
@@ -37,6 +43,7 @@ export default function ProjectArea({ projectName, projectDescription, projectMa
                     projectDescription={projectDescription}
                     projectMainLanguage={projectMainLanguage}
                     projectGithubRepositoryLink={projectGithubRepositoryLink}
+                    projectPhotoPath={projectPhotoPath}
                 >
                     <button
                         className="closeModalButton"

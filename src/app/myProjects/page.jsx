@@ -18,6 +18,7 @@ export default function Page() {
                         projectDescription={'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Eche homo Lorem ipsum dolor'}
                         projectMainLanguage={'Javascript'}
                         projectGithubRepositoryLink={'https://github.com/MuYukio/Portfolio'}
+                        projectPhotoPath={'/images/murilo.jpeg'}
                     />
 
                     <ProjectArea
@@ -25,6 +26,7 @@ export default function Page() {
                         projectDescription={'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Eche homo Lorem ipsum dolor'}
                         projectMainLanguage={'Javascript'}
                         projectGithubRepositoryLink={'https://github.com/MuYukio/Portfolio'}
+                        projectPhotoPath={'/images/murilo.jpeg'}
                     />
 
                     <ProjectArea
@@ -32,6 +34,7 @@ export default function Page() {
                         projectDescription={'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Eche homo Lorem ipsum dolor'}
                         projectMainLanguage={'Javascript'}
                         projectGithubRepositoryLink={'https://github.com/MuYukio/Portfolio'}
+                        projectPhotoPath={'/images/murilo.jpeg'}
                     />
 
                     <ProjectArea

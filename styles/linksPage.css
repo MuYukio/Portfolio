@@ -20,3 +20,15 @@ section {
 section p {
     margin-left: 5rem;
 }
+
+.linksTag {
+    text-decoration: underline;
+    color: #FFF;
+    padding: 1%;
+    border-radius: 10%;
+    background-color: #564D88;
+}
+
+.linksTag:hover {
+    background-color: #17113a;
+}

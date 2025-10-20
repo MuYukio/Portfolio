@@ -13,7 +13,7 @@ export default function Page() {
             <main>
                 <section>
                     <p>
-                        <strong>GITHUB:</strong>  <a href='https://github.com/MuYukio' rel='exthernal' target='_blank'>MUYUKIO</a>
+                        <strong>GITHUB:</strong>  <a href='https://github.com/MuYukio' rel='exthernal' target='_blank' className='linksTag'>MUYUKIO</a>
                     </p>
 
                     <p>
@@ -21,7 +21,7 @@ export default function Page() {
                     </p>
 
                     <p>
-                        <strong>INSTAGRAM:</strong> <a href='https://www.instagram.com/mu_yukio?igsh=MXVnbzczZWExa2o4MA==' target='_blank'>Clique aqui</a>
+                        <strong>INSTAGRAM:</strong> <a href='https://www.instagram.com/mu_yukio?igsh=MXVnbzczZWExa2o4MA==' rel='exthernal' target='_blank' className='linksTag'>Clique aqui</a>
                     </p>
                 </section>
             </main>

@@ -7,7 +7,8 @@ export default function ProjectInformationModal({
     projectName,
     projectDescription,
     projectMainLanguage,
-    projectGithubRepositoryLink
+    projectGithubRepositoryLink,
+    projectPhotoPath
 }) {
     if (!isOpen) return null;
 
@@ -24,13 +25,19 @@ export default function ProjectInformationModal({
                     </div>
 
                     <div className='rightModalContent'>
-                        <Image
-                            src={'/images/murilo.jpeg'}
-                            width={200}
-                            height={200}
-                            alt="Foto do dono da página"
-                            style={{ borderRadius: '50%' }}
-                        />
+                        {projectPhotoPath ?
+                            <Image
+                                src={projectPhotoPath}
+                                width={200}
+                                height={200}
+                                alt="Foto do dono da página"
+                                style={{ borderRadius: '50%' }}
+                            />
+                            :
+                            <div className='containerWithoutProjectPhoto'>
+                                <p>{projectName}</p>
+                            </div>
+                        }
 
                         <a href={projectGithubRepositoryLink} target='_blank' className='githubRepositoryLink'>
                             Repositório

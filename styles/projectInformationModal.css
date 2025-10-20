@@ -79,8 +79,13 @@
 }
 
 .githubRepositoryLink:hover {
-    background-color: #a39adf;
+    background-color: #17113a;
     cursor: pointer;
-    border: 1px solid #000;
 }
 
+@media screen and (max-width: 910px){
+    .projectInformationContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
